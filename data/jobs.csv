@@ -1,0 +1,201 @@
+job_id,career,company,location,salary_range
+1,Data Scientist,Google,Bangalore,₹12–18 LPA
+2,UX Designer,Zoho Corp,Chennai,₹8–14 LPA
+3,Software Engineer,Microsoft,Hyderabad,₹10–16 LPA
+4,AI Engineer,Amazon,Bangalore,₹15–22 LPA
+5,Product Manager,Flipkart,Bangalore,₹18–28 LPA
+6,Cloud Architect,Infosys,Pune,₹14–20 LPA
+7,Cybersecurity Analyst,Wipro,Hyderabad,₹9–15 LPA
+8,Mechanical Engineer,L&T,Chennai,₹6–10 LPA
+9,Civil Engineer,Tata Projects,Mumbai,₹5–9 LPA
+10,Electrical Engineer,Siemens,Gurgaon,₹7–12 LPA
+11,Robotics Engineer,Boston Dynamics,Bangalore,₹14–22 LPA
+12,Marketing Manager,Hindustan Unilever,Mumbai,₹12–18 LPA
+13,Financial Analyst,Deloitte,Gurgaon,₹8–14 LPA
+14,Doctor,Apollo Hospitals,Chennai,₹15–25 LPA
+15,Dentist,Clove Dental,Delhi,₹6–12 LPA
+16,Lawyer,Amarchand & Mangaldas,Mumbai,₹10–20 LPA
+17,Teacher,Delhi Public School,Delhi,₹3–6 LPA
+18,Professor,IIT Bombay,Mumbai,₹12–22 LPA
+19,Psychologist,Fortis Healthcare,Bangalore,₹7–12 LPA
+20,Journalist,Times of India,Delhi,₹5–9 LPA
+21,Graphic Designer,Byju's,Bangalore,₹6–11 LPA
+22,Interior Designer,Livspace,Bangalore,₹7–12 LPA
+23,Architect,Shapoorji Pallonji,Mumbai,₹10–18 LPA
+24,Animator,Technicolor,Hyderabad,₹6–10 LPA
+25,Game Developer,Ubisoft,Pune,₹9–15 LPA
+26,Data Analyst,TCS,Chennai,₹5–9 LPA
+27,Chartered Accountant,KPMG,Gurgaon,₹10–18 LPA
+28,Banker,HDFC Bank,Mumbai,₹6–12 LPA
+29,Pharmacist,Sun Pharma,Ahmedabad,₹4–8 LPA
+30,Nurse,Fortis Hospital,Delhi,₹3–6 LPA
+31,Biotechnologist,Biocon,Bangalore,₹7–12 LPA
+32,Chemical Engineer,ONGC,Mumbai,₹8–14 LPA
+33,Petroleum Engineer,Reliance Industries,JamNagar,₹10–18 LPA
+34,Environmental Scientist,NEERI,Nagpur,₹6–11 LPA
+35,Aerospace Engineer,HAL,Bangalore,₹9–16 LPA
+36,Pilot,IndiGo Airlines,Delhi,₹20–40 LPA
+37,Air Traffic Controller,Air Authority of India,Delhi,₹12–18 LPA
+38,Event Manager,Wizcraft,Mumbai,₹6–12 LPA
+39,Hotel Manager,Taj Hotels,Goa,₹8–14 LPA
+40,Chef,ITC Hotels,Kolkata,₹5–10 LPA
+41,Fashion Designer,Raymond,Mumbai,₹7–15 LPA
+42,Actor,Bollywood,Delhi,₹12–30 LPA
+43,Musician,Saregama,Mumbai,₹8–14 LPA
+44,Digital Marketer,Zomato,Gurgaon,₹6–12 LPA
+45,Social Media Manager,Swiggy,Bangalore,₹5–9 LPA
+46,Content Writer,UpGrad,Mumbai,₹4–7 LPA
+47,Translator,Amazon,Hyderabad,₹5–9 LPA
+48,Entrepreneur,Startup India,Bangalore,₹Varies
+49,HR Manager,Cognizant,Chennai,₹8–14 LPA
+50,Supply Chain Manager,Flipkart,Bangalore,₹12–20 LPA
+51,Blockchain Developer,CoinDCX,Mumbai,₹15–25 LPA
+52,Web Developer,Freshworks,Chennai,₹5–10 LPA
+53,Mobile App Developer,Paytm,Noida,₹6–12 LPA
+54,Full Stack Developer,Accenture,Pune,₹8–14 LPA
+55,DevOps Engineer,Capgemini,Hyderabad,₹9–15 LPA
+56,UI Designer,Adobe,Noida,₹10–18 LPA
+57,Data Engineer,IBM,Bangalore,₹12–20 LPA
+58,ML Engineer,NVIDIA,Bangalore,₹15–28 LPA
+59,Statistician,IISc,Bangalore,₹9–16 LPA
+60,Agricultural Scientist,ICAR,Delhi,₹6–10 LPA
+61,Veterinarian,MaxVet,Delhi,₹5–9 LPA
+62,Marine Biologist,NIOT,Chennai,₹7–12 LPA
+63,Geologist,Geological Survey of India,Kolkata,₹6–11 LPA
+64,Astrophysicist,ISRO,Bangalore,₹12–22 LPA
+65,Economist,RBI,Mumbai,₹10–18 LPA
+66,Sociologist,IGNOU,Delhi,₹6–12 LPA
+67,Political Scientist,JNU,Delhi,₹8–15 LPA
+68,Philosopher,DU,Delhi,₹5–9 LPA
+69,Historian,ASI,Delhi,₹7–12 LPA
+70,Librarian,IIT Madras,Chennai,₹4–8 LPA
+71,Archaeologist,ASI,Hyderabad,₹6–10 LPA
+72,Criminologist,NCRB,Delhi,₹8–14 LPA
+73,Police Officer,IPS,Delhi,₹10–15 LPA
+74,Military Officer,Indian Army,Pune,₹10–18 LPA
+75,Firefighter,Municipal Corporation,Mumbai,₹4–7 LPA
+76,Journal Editor,Hindustan Times,Delhi,₹6–12 LPA
+77,Photographer,NatGeo,Delhi,₹7–14 LPA
+78,Film Director,Yash Raj Films,Mumbai,₹18–35 LPA
+79,Producer,Dharma Productions,Mumbai,₹20–40 LPA
+80,Choreographer,Zee TV,Mumbai,₹8–15 LPA
+81,Public Relations Manager,Ogilvy,Mumbai,₹8–14 LPA
+82,NGO Manager,CRY,Delhi,₹6–12 LPA
+83,Teacher Trainer,NCERT,Delhi,₹7–13 LPA
+84,School Principal,Kendriya Vidyalaya,Delhi,₹9–16 LPA
+85,Scientist,DRDO,Hyderabad,₹12–22 LPA
+86,Research Analyst,NITI Aayog,Delhi,₹10–18 LPA
+87,Clinical Researcher,AIIMS,Delhi,₹9–15 LPA
+88,Geneticist,CCMB,Hyderabad,₹12–20 LPA
+89,Immunologist,ICMR,Delhi,₹11–18 LPA
+90,Neurologist,Fortis Healthcare,Mumbai,₹18–28 LPA
+91,Cardiologist,Apollo Hospitals,Chennai,₹20–30 LPA
+92,Oncologist,Tata Memorial Hospital,Mumbai,₹18–28 LPA
+93,Pediatrician,Rainbow Hospitals,Hyderabad,₹12–20 LPA
+94,Gynecologist,Cloudnine,Delhi,₹15–25 LPA
+95,Surgeon,Max Healthcare,Delhi,₹20–35 LPA
+96,Physiotherapist,Manipal Hospitals,Bangalore,₹5–10 LPA
+97,Dietitian,VLCC,Delhi,₹4–8 LPA
+98,Occupational Therapist,RehabCare,Mumbai,₹6–10 LPA
+99,Speech Therapist,Apollo Hospitals,Hyderabad,₹5–9 LPA
+100,Forensic Scientist,CFSL,Delhi,₹8–14 LPA
+101,Game Tester,Electronic Arts,Hyderabad,₹4–8 LPA
+102,SEO Specialist,WebChutney,Mumbai,₹5–9 LPA
+103,UI Developer,HCL,Noida,₹6–12 LPA
+104,Data Journalist,The Hindu,Chennai,₹7–13 LPA
+105,Business Analyst,Infosys,Pune,₹7–14 LPA
+106,AI Researcher,DeepMind,Bangalore,₹20–35 LPA
+107,Statistician,UNDP,Delhi,₹12–22 LPA
+108,Operations Manager,Amazon,Gurgaon,₹10–18 LPA
+109,Technical Writer,Oracle,Bangalore,₹6–11 LPA
+110,Customer Success Manager,SaaS Labs,Noida,₹7–12 LPA
+111,Financial Planner,ICICI Bank,Mumbai,₹6–11 LPA
+112,Auditor,EY,Gurgaon,₹9–15 LPA
+113,Game Designer,Ubisoft,Pune,₹10–16 LPA
+114,Drone Operator,Garuda Aerospace,Chennai,₹5–9 LPA
+115,Video Editor,Sony Pictures,Mumbai,₹6–12 LPA
+116,Copywriter,Leo Burnett,Delhi,₹5–9 LPA
+117,Event Coordinator,Showtime Events,Delhi,₹4–8 LPA
+118,Art Director,Ogilvy,Mumbai,₹12–20 LPA
+119,Legal Advisor,Trilegal,Bangalore,₹10–18 LPA
+120,HR Specialist,Tech Mahindra,Pune,₹6–12 LPA
+121,Business Development Manager,Zomato,Gurgaon,₹7–13 LPA
+122,Cloud Engineer,Google Cloud,Bangalore,₹15–25 LPA
+123,Automation Engineer,ABB,Bangalore,₹9–16 LPA
+124,QA Engineer,Capgemini,Hyderabad,₹6–11 LPA
+125,DevOps Consultant,TCS,Chennai,₹8–14 LPA
+126,Digital Illustrator,Adobe,Noida,₹7–12 LPA
+127,Animator,DQ Entertainment,Hyderabad,₹5–10 LPA
+128,Robotics Technician,ABB,Chennai,₹6–12 LPA
+129,CRM Specialist,SAP Labs,Bangalore,₹8–14 LPA
+130,App Tester,Infosys,Mysore,₹4–8 LPA
+131,Database Administrator,Oracle,Bangalore,₹10–18 LPA
+132,Network Engineer,Cisco,Bangalore,₹9–15 LPA
+133,System Administrator,Accenture,Hyderabad,₹6–12 LPA
+134,Front-End Developer,ThoughtWorks,Pune,₹8–14 LPA
+135,Back-End Developer,Zoho Corp,Chennai,₹6–12 LPA
+136,UI/UX Researcher,Microsoft,Hyderabad,₹12–20 LPA
+137,Mobile UX Designer,Flipkart,Bangalore,₹8–14 LPA
+138,Brand Manager,HUL,Mumbai,₹14–22 LPA
+139,E-commerce Specialist,Amazon,Hyderabad,₹10–18 LPA
+140,Game Producer,Riot Games,Pune,₹15–25 LPA
+141,AI Product Manager,Meta,Bangalore,₹20–30 LPA
+142,Research Scientist,Google AI,Bangalore,₹25–40 LPA
+143,Investment Banker,Goldman Sachs,Mumbai,₹25–50 LPA
+144,Equity Analyst,Morgan Stanley,Mumbai,₹15–25 LPA
+145,Insurance Analyst,LIC,Delhi,₹6–12 LPA
+146,Portfolio Manager,HDFC AMC,Mumbai,₹18–35 LPA
+147,Wealth Manager,Kotak Wealth,Mumbai,₹15–28 LPA
+148,Tax Consultant,PwC,Gurgaon,₹10–18 LPA
+149,Social Worker,Smile Foundation,Delhi,₹3–6 LPA
+150,NGO Coordinator,Teach For India,Pune,₹4–7 LPA
+151,CSR Manager,Tata Trusts,Mumbai,₹8–14 LPA
+152,Project Coordinator,Infosys,Chennai,₹6–12 LPA
+153,IT Consultant,Wipro,Bangalore,₹9–16 LPA
+154,ERP Specialist,SAP Labs,Bangalore,₹12–20 LPA
+155,3D Modeler,Technicolor,Hyderabad,₹6–12 LPA
+156,Voice Artist,All India Radio,Delhi,₹4–8 LPA
+157,Sound Engineer,YRF Studios,Mumbai,₹7–12 LPA
+158,Lighting Designer,Zee Entertainment,Mumbai,₹5–10 LPA
+159,Video Game Artist,Ubisoft,Pune,₹8–14 LPA
+160,Script Writer,Netflix,Delhi,₹10–20 LPA
+161,Creative Director,Disney Hotstar,Mumbai,₹18–30 LPA
+162,PR Executive,Weber Shandwick,Delhi,₹5–9 LPA
+163,Customer Support Executive,Concentrix,Gurgaon,₹3–6 LPA
+164,Sales Manager,HCL Technologies,Noida,₹8–14 LPA
+165,Key Account Manager,Infosys,Bangalore,₹9–16 LPA
+166,Store Manager,Big Bazaar,Delhi,₹4–7 LPA
+167,Operations Executive,Swiggy,Bangalore,₹5–9 LPA
+168,Delivery Manager,Amazon Logistics,Hyderabad,₹7–12 LPA
+169,Scrum Master,Cognizant,Pune,₹10–18 LPA
+170,Agile Coach,Infosys,Bangalore,₹12–20 LPA
+171,Technical Recruiter,Accenture,Gurgaon,₹6–12 LPA
+172,Campus Recruiter,TCS,Chennai,₹4–8 LPA
+173,Game Streamer,YouTube Gaming,Delhi,₹Varies
+174,Influencer,Instagram,Delhi,₹Varies
+175,Data Consultant,Deloitte,Mumbai,₹12–22 LPA
+176,Analytics Manager,Fractal Analytics,Bangalore,₹15–28 LPA
+177,Chief Data Officer,Paytm,Noida,₹25–40 LPA
+178,AI Ethics Researcher,IIIT Delhi,Delhi,₹12–22 LPA
+179,Climate Scientist,IIT Delhi,Delhi,₹10–18 LPA
+180,Renewable Energy Engineer,ReNew Power,Gurgaon,₹9–16 LPA
+181,Urban Planner,Smart City Mission,Delhi,₹8–15 LPA
+182,Transport Engineer,DMRC,Delhi,₹7–12 LPA
+183,Mining Engineer,Coal India,Dhanbad,₹6–11 LPA
+184,Oil & Gas Engineer,ONGC,Mumbai,₹12–20 LPA
+185,Supply Analyst,Flipkart,Bangalore,₹7–13 LPA
+186,HR Business Partner,Infosys,Pune,₹12–20 LPA
+187,Chief Technology Officer,StartUp Hub,Bangalore,₹30–50 LPA
+188,Chief Marketing Officer,Unacademy,Bangalore,₹25–45 LPA
+189,Chief Finance Officer,Reliance,Mumbai,₹30–55 LPA
+190,Chief Executive Officer,TCS,Mumbai,₹40–70 LPA
+191,Chief Operations Officer,Wipro,Bangalore,₹35–60 LPA
+192,Chief Strategy Officer,Infosys,Pune,₹30–55 LPA
+193,Chief Design Officer,Adobe,Noida,₹25–45 LPA
+194,Chief HR Officer,HCL,Noida,₹28–50 LPA
+195,Chief Data Scientist,Google AI,Bangalore,₹35–65 LPA
+196,Chief Cloud Architect,Amazon AWS,Hyderabad,₹35–60 LPA
+197,Chief Security Officer,Cisco,Bangalore,₹30–55 LPA
+198,Chief AI Officer,Microsoft AI,Hyderabad,₹40–70 LPA
+199,Chief Innovation Officer,Flipkart,Bangalore,₹35–65 LPA
+200,Politician,Indian Government,Delhi,₹Varies
