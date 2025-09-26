@@ -3,3 +3,7 @@ langchain-neo4j==0.1.1
 langchain-google-genai==2.1.12
 neo4j==5.26.0
 google-generativeai
+"to remove the keras and download torch and give cmd to strictly use the old version "
+pip uninstall tensorflow keras -y
+pip install torch --index-url https://download.pytorch.org/whl/cpu
+pip install "transformers==4.36.2" sentence-transformers

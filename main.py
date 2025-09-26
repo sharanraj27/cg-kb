@@ -1,3 +1,4 @@
+# app.py
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -6,12 +7,12 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 
 app = FastAPI()
 
-# Allow CORS for frontend
+# Allow CORS for Flutter (mobile/web)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # Next.js
+    allow_origins=["*"],  # or your Flutter app URL
     allow_methods=["*"],
-    allow_headers=["*"],
+    allow_headers=["*"]
 )
 
 # Input model
@@ -20,15 +21,7 @@ class UserInput(BaseModel):
     personality: list[str]
 
 # -----------------------------
-# Setup LLM
-# -----------------------------
-llm = ChatGoogleGenerativeAI(
-    model="gemini-1.5-flash",
-    google_api_key="YOUR_GOOGLE_API_KEY"
-)
-
-# -----------------------------
-# Connect to Neo4j
+# 1. Connect to Neo4j
 # -----------------------------
 graph = Neo4jGraph(
     url="bolt://localhost:7687",
@@ -36,8 +29,19 @@ graph = Neo4jGraph(
     password="sharan,27"
 )
 
-@app.post("/get-careers")
-def get_careers(user_input: UserInput):
+# -----------------------------
+# 2. Setup LLM fallback
+# -----------------------------
+llm = ChatGoogleGenerativeAI(
+    model="gemini-2.0-flash",
+    google_api_key="AIzaSyDkFS_LBSh4k7sutswW9PYwONZXkEPza5Q"
+)
+
+# -----------------------------
+# 3. Endpoint for Flutter
+# -----------------------------
+@app.post("/recommend-careers")
+def recommend_careers(user_input: UserInput):
     # Normalize input
     skills_list = [s.strip().lower() for s in user_input.skills]
     personality_list = [p.strip().lower() for p in user_input.personality]
@@ -45,7 +49,7 @@ def get_careers(user_input: UserInput):
     skills_str = "[" + ",".join(f'"{s}"' for s in skills_list) + "]"
     personality_str = "[" + ",".join(f'"{p}"' for p in personality_list) + "]"
 
-    # Cypher query
+    # Query Neo4j
     cypher = f"""
     MATCH (p:Personality)-[:SUITED_FOR]->(c:Career)<-[:REQUIRES_SKILL]-(s:Skill)
     WHERE toLower(p.name) IN {personality_str} AND toLower(s.name) IN {skills_str}
@@ -55,23 +59,28 @@ def get_careers(user_input: UserInput):
     results = graph.query(cypher)
 
     if not results:
-        # If no data in DB, fallback to LLM-based suggestion
+        # Fallback to LLM
         prompt = f"""
         The user has these skills: {skills_list} and these personality traits: {personality_list}.
         Suggest suitable careers with description.
         """
         response = llm.invoke(prompt)
-        # Parse LLM response to dictionary (simple fallback)
-        # Here we just return the raw text for simplicity
         return {"fallback_text": response.content}
 
-    # Structure careers data
-    careers_data = {}
+    # Structure results
+    careers_data = []
     for r in results:
-        career_name = r["career"]
-        skills = r["matched_skills"]
-        personality = r["matched_personality"]
-        description = f"Skills matched: {skills}. Personality matched: {personality}."
-        careers_data[career_name] = description
+        careers_data.append({
+            "career": r["career"],
+            "skills_matched": r["matched_skills"],
+            "personality_matched": r["matched_personality"]
+        })
 
-    return careers_data
+    return {"careers": careers_data}
+
+# -----------------------------
+# 4. Run locally
+# -----------------------------
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run("app:app", host="0.0.0.0", port=9000, reload=True)
